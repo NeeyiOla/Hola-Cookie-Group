@@ -54,9 +54,9 @@ This project analyses customer behaviour, product performance, and store profita
 
 # Problem Statement
 
-- •	Understand overall sales performance in a way that highlights areas for improvement.
-- •	Identify key patterns in customer behaviour, such as how demographics, geography, and return trends affect profitability.
-- •	Evaluate product performance—especially across multiple categories like cookie types—based on gross profit and customer preferences and understanding products purchases and return pattern.
+- Understand overall sales performance in a way that highlights areas for improvement.
+- Identify key patterns in customer behaviour, such as how demographics, geography, and return trends affect profitability.
+- Evaluate product performance—especially across multiple categories like cookie types—based on gross profit and customer preferences and understanding products purchases and return pattern.
 
 This project addresses these gaps by delivering actionable, visual insights into sales trends, customer segmentation, and product-level profitability. It empowers stakeholders to make informed decisions around marketing, inventory management, customer retention, and product strategy.
 
@@ -77,7 +77,7 @@ This project addresses these gaps by delivering actionable, visual insights into
 - As a Store Manager, I want to anticipate seasonal sales trends so that I can manage inventory effectively.
 
 ### Acceptance Criteria
-The dashboard should:
+The dashboard should:  
 - Display key KPIs such as Total Revenue, COGS, Profit, Sold Quantity, and Returned Quantity.
 - Allow filtering by product type, customer demographics, and geography.
 - Visualize monthly trends in sales and returns.
@@ -210,46 +210,43 @@ What is the general approach in creating this solution from start to finish
     Shows returns, a vital indicator of product quality, customer satisfaction, or potential issues with specific products.
 
 #### Targeted Vs. Actual Revenue
-- Target Revenue (£4.47M) vs. Actual Revenue (£4.36M):
+- Target Revenue (£4.47M) vs. Actual Revenue (£4.36M):  
     Actual revenue slightly missed the target, indicating the team nearly achieved the financial goal. This indicates need for minor/large scale adjustments in pricing             strategies.
 
 #### Total Purchase by Purchase Frequency Category:
-- 41-60 Category (515 Purchases):
+- 41-60 Category (515 Purchases):  
     The largest purchases frequency falls within 41-60 category, indicating that come customers has purchases any of the products between 41 – 60 times this show a strong,         loyal customer base that frequently engages with the business.
-- 61-80 category (436 purchases):
+- 61-80 category (436 purchases):  
     Another significant purchases category showing substantial loyalty and engagement.
-- Smaller segments (1-10, 11-25, etc.):
+- Smaller segments (1-10, 11-25, etc.):   
     Offer opportunities to convert occasional buyers into more frequent, loyal customers through targeted marketing or incentives
 
 #### Customer Return Rate Breakdown:
 - Moya, Paddy, Emily, Taiye, Drake, Jacob, Keith, James, Sharon:
-    Lists customers with the highest return rates, providing insights into customers who may have experienced product issues or dissatisfaction.
+    Lists customers with the highest return rates, providing insights into customers who may have experienced product issues or dissatisfaction.  
         - Moya has the highest return rate (7.2%), suggesting targeted investigation or follow-up may be necessary.
         - The list would help to pinpoint potential areas for improving product quality, customer service, or logistical processes.
 
 #### Monthly Sales Trend:
 - Peak in July:  
     July experienced the highest sales revenue but also recorded a notable spike in returned sales, indicating a potential correlation between high sales and increased             returns. Seasonal effects or promotional impacts should be reviewed.
-- Decline in August-November:
+- Decline in August-November:  
     A significant drop following July, possibly indicating seasonal effects, changes in marketing, or demand fluctuations. Although this is also because of the dataset hasn’t     been updated with the latest records from the data source.
-- Low returns:
+- Low returns:  
     Outside the July spike, returned sales remain consistently low, suggesting overall good customer satisfaction and product quality outside this specific period.
 
 #### Key Recommendations for Stakeholders:
-- Revenue & Profitability:
+- Revenue & Profitability:  
     - Enhance marketing and sales strategies slightly to bridge the small gap between target and actual revenue.
-- Cost Efficiency:
+- Cost Efficiency:  
     - I will strongly recommend evaluation of COGS to identify cost-saving opportunities to improve profitability.
-- Customer Retention & Engagement:
+- Customer Retention & Engagement:  
     - Focus on high-frequency customers (41-60 and 61-80 purchases) to maintain loyalty through targeted promotions.
     - Implement strategies to upgrade customers from lower frequency categories.
-- Returns Management:
+- Returns Management:  
     - Investigate high return rates from specific customers to reduce returns, improve satisfaction, and potentially save costs.
-- Seasonal Analysis:
+- Seasonal Analysis:  
     - Anticipate the July spike and subsequent decrease in sales by adjusting inventory, marketing budgets, and staffing accordingly.
-
-
-
 
 
 
@@ -257,15 +254,15 @@ What is the general approach in creating this solution from start to finish
 Goal: The dashboard analyses net sales by gender and customer demographics, return behaviour, geography, and purchasing patterns.
 
 #### Customer Gender-Based Sales Summary
-Male Customers
-    - Net Sales: £2.45M
-    - Number of Male Customers: 20
-    - Trend: Strong performance, especially between July and August with peak net sales.
+Male Customers  
+    - Net Sales: £2.45M  
+    - Number of Male Customers: 20  
+    - Trend: Strong performance, especially between July and August with peak net sales.  
 
-Female Customers
-    - Net Sales: £1.88M
-    - Number of Female Customers: 18
-    - Trend: Similar pattern as males, peaking mid-year but with slightly lower values.
+Female Customers  
+    - Net Sales: £1.88M  
+    - Number of Female Customers: 18  
+    - Trend: Similar pattern as males, peaking mid-year but with slightly lower values.  
     
  Insight: Despite similar customer count, male customers contribute more to overall sales, indicating higher average spend or order volume.
 
@@ -275,7 +272,7 @@ Female Customers
 #### Net Sales by Top 10 Customers
 - Top Contributor: Diego – (£392.01K), Emily - (£258.95K), Daniel - (£225.17K)
 - Others (e.g., Emma, Daniel, Becky) contribute between £157K–£258K.
-- 
+
 Insight: Heavy reliance on a few key customers. A risk if top contributors churn, but also an opportunity to strengthen loyalty through incentives.
 
 #### Geographical Distribution (Tree Map):
@@ -327,7 +324,65 @@ Insight: Young adults (especially 31–35) are most likely to make repeated purc
     - Double down on high-performing regions like California, Texas, and Chester, with regional campaigns and fulfilment optimization.
 
 
+### DASHBOARD 3: HOLA PRODUCT PORTFOLIO PERFORMANCE (Based on Gross Profit)
 
+#### KPI Cards (Top Section): 
+Indicates net earnings from sales after subtracting costs, highlighting profitability for each cookies category.
+
+- Classic Cookies Profit – (£182.9K)
+- Basic Cookies Net Profit- (£174.4K)
+- Christmas Cookies Net Profit – (£166.2K)
+- Healthy Cookies Net Profit – (£141.2K)
+
+Insight: Classic cookies lead in profit, with Healthy cookies performing lowest, suggesting room for marketing or recipe improvement in the health-conscious category.
+
+#### Top-Selling Cookie by Name
+- Peanut Butter is the highest-grossing individual cookie at £61K.
+- Other top contributors:
+    - Macaron (£56K)
+    - Sugar (£41K)
+    - Cookies with Cream (£40K)
+    - Refrigerator (£39K)
+
+Insight: Peanut Butter and Macaron dominate, showing strong customer preference. Consider bundling or promotions around these.
+
+#### Return Quantity by Cookie Type  
+- Highest Returns:
+    - Classic (31%)
+    - Basic (28.7%)
+- Lowest Returns:
+    - Christmas (18.5%)
+
+Insight: Classic and Basic types have higher return rates. Investigate potential quality issues, delivery problems, or mismatched customer expectations.
+
+#### Total Orders by Cookie Type  
+- Christmas cookies have the most orders (922), despite being seasonal.
+- Basic (643), Healthy (612), and Classic (589) follow.
+
+Insight: Strong order volume for Christmas cookies indicates peak seasonal demand—opportunity to expand festive variants or increase stock planning for Q4.
+
+#### Gross Profit Over Time by Cookie Type
+- Christmas cookies peak between October–December.
+- Classic and Basic show steady sales across most months.
+- Healthy cookies show modest but steady growth mid-year (May–August).
+
+Insight:  
+- Optimize seasonal campaigns around Christmas.
+- Leverage mid-year interest in Healthy cookies (possibly driven by summer or fitness trends).
+
+
+#### Key Recommendations for Stakeholders:
+
+- Double down on Peanut Butter, Macaron, and Sugar cookies
+    - Promote these across channels and explore new variants.
+- Address return rates in Classic & Basic cookies
+    - Conduct quality assurance or gather customer feedback.
+- Capitalize on seasonal demand for Christmas cookies
+    - Expand product lines or launch early-bird festive promotions.
+- Boost Healthy cookie appeal
+    - Highlight health benefits, reformulate recipes, or rebrand to attract more health-conscious buyers.
+- Use top-selling cookie data to inform bundling strategies
+    - Pair popular cookies with slower sellers to balance inventory movement.
 
 
 
