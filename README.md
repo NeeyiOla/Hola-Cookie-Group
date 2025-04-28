@@ -283,11 +283,11 @@ United States & United Kingdom are key regions:
     
  Insight: Sales are well-distributed, with strong performance in California, Texas, and Chester. Use this to tailor regional campaigns.
 
-Total Return Quantity
-    - Overall Returns: 8,368 units
-    - By Gender:
-        - Male: 4,268
-        - Female: 4,020
+#### Total Return Quantity
+- Overall Returns: 8,368 units
+- By Gender:  
+    - Male: 4,268
+    - Female: 4,020
         
 Insight: Return behaviour is fairly balanced between genders. However, male customers return slightly more. Monitor for quality or service issues.
 
