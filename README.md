@@ -187,17 +187,16 @@ What is the general approach in creating this solution from start to finish
 
 - Designed slicers and KPIs to enable real-time, self-service analytics for stakeholders.
 
-
-
-[View Power BI Report](https://app.powerbi.com/reportEmbed?reportId=3b68d49b-8c18-48c1-9783-0740d28fb8b9&autoAuth=true&ctid=2a305761-f97d-47e4-8f0f-a6c20c3feb73)
 [![View Report](https://img.shields.io/badge/View%20Power%20BI%20Report-Click%20Here-blue)](https://app.powerbi.com/reportEmbed?reportId=3b68d49b-8c18-48c1-9783-0740d28fb8b9&autoAuth=true&ctid=2a305761-f97d-47e4-8f0f-a6c20c3feb73)
 
 
-    ### Insert Link/Image to the PowerBI Report in Power BI Service
+    ### Click on the above link to fully interact with the Power Bi Report
 
 # Detailed Insights and Recommendation 
 
 ### DASHBOARD 1: SALES PULSE - PERFORMANCE, FREQUENCY & RETURN (Executive Overview)
+
+![Dashboard 1](Assets_Folder/Images/Dashboard-1.gif)
 
 #### KPI CARDS (Top Section)
 - Total Sales (£4.4M):  
@@ -255,6 +254,9 @@ What is the general approach in creating this solution from start to finish
 
 
 ### DASHBOARD 2: SALES PERFORMANCE & CUSTOMER BEHAVIOUR DASHBOARD (Net sales by Customer Demographic)
+
+![Dashboard 2](Assets_Folder/Images/Dashboard-2.gif)  
+
 Goal: The dashboard analyses net sales by gender and customer demographics, return behaviour, geography, and purchasing patterns.
 
 #### Customer Gender-Based Sales Summary
@@ -329,6 +331,8 @@ Insight: Young adults (especially 31–35) are most likely to make repeated purc
 
 
 ### DASHBOARD 3: HOLA PRODUCT PORTFOLIO PERFORMANCE (Based on Gross Profit)
+
+![Dashboard 3](Assets_Folder/Images/Dashboard-3.gif)
 
 #### KPI Cards (Top Section): 
 Indicates net earnings from sales after subtracting costs, highlighting profitability for each cookies category.
