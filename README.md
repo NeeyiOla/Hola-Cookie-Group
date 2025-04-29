@@ -98,12 +98,18 @@ The dashboard should:
 
     ## insert table
 
-| Column Name | Data Type | Nullable |
+| Column Name | Data Type | Description |
 | --- | --- | --- |
-| channel_name | VARCHAR | NO |
-| total_subscribers | INTEGER | NO |
-| total_views | INTEGER | NO |
-| total_videos | INTEGER | NO |
+| Column ID | AutoNumber | Unique Identifier of each customer |
+| First Name | Short text | NO |
+| Last Name | Short text | NO |
+| Gender | Short text | NO |
+| Marital Status | Short text | NO |
+| Birth Year | Data/Time | NO |
+| Email Address |  Short text | NO |
+| Phone Number | Short text | NO |
+| Address | Short text | NO |
+| City | Short text | NO |
 
 - Transaction Table: Tracks order details, quantities, returns and revenue
 
