@@ -137,7 +137,7 @@ The dashboard should:
 | Order filled | Yes/No | If purchases have been fulfilled or not |
 | Unit Price |  Currency | Price per unit of product quantity sold |
 | Revenue | Calculated | multiplication of Unit Price and Quantity ordered |
-| Return | Number | count of amount of return product |
+| Return | Number | return product quantity count |
 
     ## insert table
 
