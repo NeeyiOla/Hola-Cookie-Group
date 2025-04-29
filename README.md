@@ -98,6 +98,13 @@ The dashboard should:
 
     ## insert table
 
+| Column Name | Data Type | Nullable |
+| --- | --- | --- |
+| channel_name | VARCHAR | NO |
+| total_subscribers | INTEGER | NO |
+| total_views | INTEGER | NO |
+| total_videos | INTEGER | NO |
+
 - Transaction Table: Tracks order details, quantities, returns and revenue
 
     ## insert table
