@@ -129,11 +129,11 @@ The dashboard should:
 
 | Column Name | Data Type | Description |
 | --- | --- | --- |
-| Column ID | AutoNumber | Unique Identifier of each customer |
-| First Name | Short text | Customer first name |
-| Last Name | Short text | Customer last name |
-| Gender | Short text | Sex orientation of each customer |
-| Marital Status | Short text | Marital status of customer |
+| Order ID | AutoNumber | Unique Identifier of each customer |
+| Customer ID | Short text | Customer first name |
+| Product ID | Short text | Customer last name |
+| Order Date | Short text | Sex orientation of each customer |
+| Quantity Order | Short text | Marital status of customer |
 | Birth Year | Data/Time | Date of birth of customer |
 | Email Address |  Short text | Email Address contact of each customer |
 | Phone Number | Short text | Telephone or Mobile contact of each customer |
