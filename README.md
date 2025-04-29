@@ -203,7 +203,7 @@ What is the general approach in creating this solution from start to finish
 
 ### DASHBOARD 1: SALES PULSE - PERFORMANCE, FREQUENCY & RETURN (Executive Overview)
 
-![Dashboard 1](Assets_Folder/Images/Dashboard-1.gif)
+![Dashboard 1](Assets_Folder/Images/Dashboard_1.gif)
 
 #### KPI CARDS (Top Section)
 - Total Sales (£4.4M):  
