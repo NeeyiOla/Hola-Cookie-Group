@@ -130,19 +130,15 @@ The dashboard should:
 | Column Name | Data Type | Description |
 | --- | --- | --- |
 | Order ID | AutoNumber | Unique Identifier of each customer |
-| Customer ID | Short text | Customer first name |
-| Product ID | Short text | Customer last name |
-| Order Date | Short text | Sex orientation of each customer |
-| Quantity Order | Short text | Marital status of customer |
-| Birth Year | Data/Time | Date of birth of customer |
-| Email Address |  Short text | Email Address contact of each customer |
-| Phone Number | Short text | Telephone or Mobile contact of each customer |
-| Address | Short text | Housing Address of each customer |
-| City | Short text | City the customer house address is |
-| State | Short text | State the customer house address is |
-|  Zip code | Short text | Customer address zip code |
-| Country | Short text | Country customer state and city is located |
-| Note | Long text | brief note that describes customer engagement with product and purchases |
+| Customer ID | Number | Foreign key referencing the Customer table (Customer ID) |
+| Product ID | Number | Foreign key referencing product table (Product ID) |
+| Order Date | Date/Time | Date of each product quantity order from each customer |
+| Quantity Order | Number | Quantity of product order by customer |
+| Order filled | Yes/No | If purchases have been fulfilled or not |
+| Unit Price |  Currency | Price per unit of product quantity sold |
+| Revenue | Calculated | multiplication of Unit Price and Quantity ordered |
+| Return | Number | count of amount of return product |
+
     ## insert table
 
 ### Benefit of Access Storage
