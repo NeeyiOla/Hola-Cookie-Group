@@ -101,15 +101,19 @@ The dashboard should:
 | Column Name | Data Type | Description |
 | --- | --- | --- |
 | Column ID | AutoNumber | Unique Identifier of each customer |
-| First Name | Short text | NO |
-| Last Name | Short text | NO |
-| Gender | Short text | NO |
-| Marital Status | Short text | NO |
-| Birth Year | Data/Time | NO |
-| Email Address |  Short text | NO |
-| Phone Number | Short text | NO |
-| Address | Short text | NO |
-| City | Short text | NO |
+| First Name | Short text | Customer first name |
+| Last Name | Short text | Customer last name |
+| Gender | Short text | Sex orientation of each customer |
+| Marital Status | Short text | Marital status of customer |
+| Birth Year | Data/Time | Date of birth of customer |
+| Email Address |  Short text | Email Address contact of each customer |
+| Phone Number | Short text | Telephone or Mobile contact of each customer |
+| Address | Short text | Housing Address of each customer |
+| City | Short text | City the customer house address is |
+| State | Short text | State the customer house address is |
+|  Zip code | Short text | Customer address zip code |
+| Country | Short text | Country customer state and city is located |
+| Note | Long text | brief note that describes customer engagement with product and purchases |
 
 - Transaction Table: Tracks order details, quantities, returns and revenue
 
