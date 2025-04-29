@@ -321,10 +321,10 @@ Female Customers
 Insight: Heavy reliance on a few key customers. A risk if top contributors churn, but also an opportunity to strengthen loyalty through incentives.
 
 #### Geographical Distribution (Tree Map):
-United States & United Kingdom are key regions:
-    - Top States in the U.S.: California (£33K), Texas (£31K), New York (£24K)
-    - Top UK Cities: Chester (£50K), Slough (12.4K), Manchester () Reading (10K+ each)
-    - Top Province in Canada: Vancouver (19K), Quebec (14K) Alberta (12K), 
+United States & United Kingdom are key regions:  
+    - Top States in the U.S.: California (£33K), Texas (£31K), New York (£24K). 
+    - Top UK Cities: Chester (£50K), Slough (12.4K), Manchester () Reading (10K+ each). 
+    - Top Province in Canada: Vancouver (19K), Quebec (14K) Alberta (12K). 
     
  Insight: Sales are well-distributed, with strong performance in California, Texas, and Chester. Use this to tailor regional campaigns.
 
