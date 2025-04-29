@@ -92,11 +92,40 @@ The dashboard should:
 ### Access Database Structure
 - Customer Table: Including demographics, contact info, and location
 
+| Column Name | Data Type | Description |
+| --- | --- | --- |
+| Column ID | AutoNumber | Unique Identifier of each customer |
+| First Name | Short text | Customer first name |
+| Last Name | Short text | Customer last name |
+| Gender | Short text | Sex orientation of each customer |
+| Marital Status | Short text | Marital status of customer |
+| Birth Year | Data/Time | Date of birth of customer |
+| Email Address |  Short text | Email Address contact of each customer |
+| Phone Number | Short text | Telephone or Mobile contact of each customer |
+| Address | Short text | Housing Address of each customer |
+| City | Short text | City the customer house address is |
+| State | Short text | State the customer house address is |
+|  Zip code | Short text | Customer address zip code |
+| Country | Short text | Country customer state and city is located |
+| Note | Long text | brief note that describes customer engagement with product and purchases |
     ## insert table
 
 - Product Table: Lists cookie type, pricing, and ingredients
 
+| Column Name | Data Type | Description |
+| --- | --- | --- |
+| Product ID | AutoNumber | Unique Identifier of each product |
+| Product Name | Short text | Product name |
+| Product Category | Short text | Product category name |
+| Recipes | Short text | Compilation of all recipes used to make the product |
+| Unit Cost | Currency | Cost per unit of each product |
+| Unit Price | currency | Price per unit of each product |
+
     ## insert table
+
+
+
+- Transaction Table: Tracks order details, quantities, returns and revenue
 
 | Column Name | Data Type | Description |
 | --- | --- | --- |
@@ -114,9 +143,6 @@ The dashboard should:
 |  Zip code | Short text | Customer address zip code |
 | Country | Short text | Country customer state and city is located |
 | Note | Long text | brief note that describes customer engagement with product and purchases |
-
-- Transaction Table: Tracks order details, quantities, returns and revenue
-
     ## insert table
 
 ### Benefit of Access Storage
