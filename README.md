@@ -192,6 +192,7 @@ What is the general approach in creating this solution from start to finish
 
 
 [View Power BI Report](https://app.powerbi.com/reportEmbed?reportId=3b68d49b-8c18-48c1-9783-0740d28fb8b9&autoAuth=true&ctid=2a305761-f97d-47e4-8f0f-a6c20c3feb73)
+[![View Report](https://img.shields.io/badge/View%20Power%20BI%20Report-Click%20Here-blue)](https://app.powerbi.com/reportEmbed?reportId=3b68d49b-8c18-48c1-9783-0740d28fb8b9&autoAuth=true&ctid=2a305761-f97d-47e4-8f0f-a6c20c3feb73)
 
 
     ### Insert Link/Image to the PowerBI Report in Power BI Service
