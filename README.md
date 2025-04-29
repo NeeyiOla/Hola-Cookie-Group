@@ -3,9 +3,7 @@
 ##  Hola Retail Group: Customer & Sales Behaviour and Product Profitability Analytics
 
 
-
-
-
+![access to Power BI.png](Assets_Folder/Images/access_to_Power_BI.png)
 
 
 
