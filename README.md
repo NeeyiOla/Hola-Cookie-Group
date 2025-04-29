@@ -262,7 +262,7 @@ What is the general approach in creating this solution from start to finish
 
 ### DASHBOARD 2: SALES PERFORMANCE & CUSTOMER BEHAVIOUR DASHBOARD (Net sales by Customer Demographic)
 
-![Dashboard 2](Assets_Folder/Images/Dashboard-2.gif)  
+![Dashboard 2](Assets_Folder/Images/Dashboard_2.gif)  
 
 Goal: The dashboard analyses net sales by gender and customer demographics, return behaviour, geography, and purchasing patterns.
 
@@ -339,7 +339,7 @@ Insight: Young adults (especially 31–35) are most likely to make repeated purc
 
 ### DASHBOARD 3: HOLA PRODUCT PORTFOLIO PERFORMANCE (Based on Gross Profit)
 
-![Dashboard 3](Assets_Folder/Images/Dashboard-3.gif)
+![Dashboard 3](Assets_Folder/Images/Dashboard_3.gif)
 
 #### KPI Cards (Top Section): 
 Indicates net earnings from sales after subtracting costs, highlighting profitability for each cookies category.
