@@ -184,7 +184,7 @@ What is the general approach in creating this solution from start to finish
         - COGS (Cost of Goods Sold)
         - Net Sales
         - Gross Profit 
-        - Returned Sales 
+        - Returned Salesis 
         - Sales 
         
         These enriched metrics support deeper profitability and performance analysis.
@@ -199,8 +199,9 @@ What is the general approach in creating this solution from start to finish
 - Structured the data into a star schema, linking fact and dimension tables (Customer, Product, Store, Transaction).
 - Ensured relationships support accurate cross-table filtering and aggregation.
 
-    ### insert modelling data image
+    ![Hola data model](Assets_Folder/Images/Hola_Data_Model.png)
 
+  From the above Power BI data model pane image above we can see that a many to one (*:1) was establish between the Transaction table (The Fact Table) and Dimensions Table (Product, Customer, and date table).The other tables shown are the Dax measure and measure documentation tables.  
 
 #### DAX Measures Created
 - Total Revenue = SUM(Transaction[Revenue])
