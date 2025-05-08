@@ -19,7 +19,7 @@
     - [Acceptance Criteria](#Acceptance-criteria)
     - [Success Criteria](#Success-criteria)
 - [Data Source](#Data-source)
-  - [Dataase Structure](#Access-Database-Structure)
+  - [Database Structure](#Access-Database-Structure)
   - [Access Database Benefit](#Benefit-of-Access-Storage)
 - [Methodology](#Methodology)
   - [Tool used](#Tool-Used)
