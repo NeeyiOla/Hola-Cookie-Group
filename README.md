@@ -90,9 +90,8 @@ The dashboard should:
 # Data Source
 
 ### Access Database Structure  
-- Customer Table: Including demographics, contact info, and location
-
-
+  
+- Customer Table: Including demographics, contact info, and location  
 | Column Name | Data Type | Description |
 | --- | --- | --- |
 | Column ID | AutoNumber | Unique Identifier of each customer |
@@ -109,8 +108,8 @@ The dashboard should:
 |  Zip code | Short text | Customer address zip code |
 | Country | Short text | Country customer state and city is located |
 | Note | Long text | brief note that describes customer engagement with product and purchases |  
-
-- Product Table: Lists cookie type, pricing, and ingredients
+  
+- Product Table: Lists cookie type, pricing, and ingredients  
 
 | Column Name | Data Type | Description |
 | --- | --- | --- |
@@ -120,8 +119,7 @@ The dashboard should:
 | Recipes | Short text | Compilation of all recipes used to make the product |
 | Unit Cost | Currency | Cost per unit of each product |
 | Unit Price | currency | Price per unit of each product |  
-
-
+  
 - Transaction Table: Tracks order details, quantities, returns and revenue
 
 | Column Name | Data Type | Description |
