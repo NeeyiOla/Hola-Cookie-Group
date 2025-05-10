@@ -90,8 +90,9 @@ The dashboard should:
 # Data Source
 
 ### Access Database Structure  
-  
-- Customer Table: Including demographics, contact info, and location  
+
+- Customer Table: Including demographics, contact info, and location
+
 | Column Name | Data Type | Description |
 | --- | --- | --- |
 | Column ID | AutoNumber | Unique Identifier of each customer |
@@ -107,9 +108,9 @@ The dashboard should:
 | State | Short text | State the customer house address is |
 |  Zip code | Short text | Customer address zip code |
 | Country | Short text | Country customer state and city is located |
-| Note | Long text | brief note that describes customer engagement with product and purchases |  
-  
-- Product Table: Lists cookie type, pricing, and ingredients  
+| Note | Long text | brief note that describes customer engagement with product and purchases |
+
+- Product Table: Lists cookie type, pricing, and ingredients
 
 | Column Name | Data Type | Description |
 | --- | --- | --- |
@@ -118,8 +119,8 @@ The dashboard should:
 | Product Category | Short text | Product category name |
 | Recipes | Short text | Compilation of all recipes used to make the product |
 | Unit Cost | Currency | Cost per unit of each product |
-| Unit Price | currency | Price per unit of each product |  
-  
+| Unit Price | currency | Price per unit of each product |
+
 - Transaction Table: Tracks order details, quantities, returns and revenue
 
 | Column Name | Data Type | Description |
@@ -132,7 +133,7 @@ The dashboard should:
 | Order filled | Yes/No | If purchases have been fulfilled or not |
 | Unit Price |  Currency | Price per unit of product quantity sold |
 | Revenue | Calculated | multiplication of Unit Price and Quantity ordered |
-| Return | Number | return product quantity count |  
+| Return | Number | return product quantity count |
 
 ### Benefit of Access Storage
 
