@@ -22,17 +22,19 @@
   - [Database Structure](#Access-Database-Structure)
   - [Access Database Benefit](#Benefit-of-Access-Storage)
 - [Methodology](#Methodology)
-  - [Tool used](#Tool-Used)
+  - [Technical Tool used](#Technical_Tool_Used)
   - [Development](#Development)
-  - [ETL Process](#ETL-Process)
-  - [Data Modelling](#Data-modelling)
-  - [DAX Measure Created](#DAX-Measure-created)
-  - [Analysis](#Analysis)
-  - [Visualisation](#Visualisation)
+  - [Process](#Process)
+    - [Data Exploration and Cleaning](#Data_Exploration_and_Cleaning)
+    - [ETL Process](#ETL-Process)
+    - [Data Modelling](#Data-modelling)
+    - [DAX Measure Created](#DAX-Measure-created)
+    - [Analysis](#Analysis)
+    - [Visualisation](#Visualisation)
 - [Detailed Insights and Recommendations](#Detailed-Insights-and-Recommendation)
-  - [Dashboard 1](#Sales-Pulse-Performance,-Frequency-&-Return-(Executive-Overview))
-  - [Dashboard 2](#Sales-Performance-&-Customer-Behaviour-(Net-sales-by-Customer-Demographic))
-  - [Dashboard 3](#Product-portfolio-performance-(Based-on-Gross-Proft))
+  - [Dashboard 1](#Sales_Pulse_Performance,_Frequency_&_Return_(Executive_Overview))
+  - [Dashboard 2](#Sales_Performance_&_Customer-Behaviour_(Net_sales_by_Customer_Demographic))
+  - [Dashboard 3](#Product_portfolio_performance_(Based_on_Gross_Proft))
  
 # Project Title:
 Hola Retail Group: Customer & Sales Behaviour and Product Profitability
@@ -198,12 +200,73 @@ What is the general approach in creating this solution from start to finish
   From the above Power BI data model pane image above we can see that a many to one (*:1) was establish between the Transaction table (The Fact Table) and Dimensions Table (Product, Customer, and date table).The other tables shown are the Dax measure and measure documentation tables.  
 
 #### DAX Measures Created
-- Total Revenue = SUM(Transaction[Revenue])
-- COGS = SUM(Transaction[COGS])
-- Gross Profit = [Total Revenue] - [COGS]
-- Return Rate = DIVIDE(SUM(Transaction[Returned Quantity]), SUM(Transaction[Sold Quantity]))
-- Net Sales = SUM(Transaction[Revenue]) - SUM(Transaction[Return])
 
+```DAX
+Total Sales = 
+SUM(Transaction_Tbl[Net Sales])
+
+```
+
+```DAX
+Top 10 Sales - Female = 
+CALCULATE(
+    [Total Sales],
+    FILTER(
+        ADDCOLUMNS(
+            VALUES(Customer1_Tbl[ID]),
+            "Rank", [Customer Sales Rank]
+        ),
+        [Rank] <= 10
+    ),
+    Customer1_Tbl[Gender] = "Female"
+)
+
+```
+```DAX
+Top 10 Sales - Male = 
+CALCULATE(
+    [Total Sales],
+    FILTER(
+        ADDCOLUMNS(
+            VALUES(Customer1_Tbl[ID]),
+            "Rank", [Customer Sales Rank]
+        ),
+        [Rank] <= 10
+    ),
+    Customer1_Tbl[Gender] = "Male"
+)
+```
+
+```DAX
+highest selling product = 
+CALCULATE(
+        SELECTEDVALUE(
+            'Products_Tbl'[Cookies Name]),
+            TOPN(1,
+             ALL('Products_Tbl'[Cookies Name]),
+             [Total Revenue],
+             DESC)
+```
+```DAX
+Repeat Purchase Rate (%) = 
+VAR CustomersInCategory = DISTINCTCOUNT(Customer1_Tbl[ID])
+VAR TotalCustomers = 
+    CALCULATE(
+        DISTINCTCOUNT(Customer1_Tbl[ID]),
+        ALL(Customer1_Tbl)
+    )
+RETURN
+DIVIDE(CustomersInCategory, TotalCustomers, 0)
+
+```
+
+```DAX
+Total Purchases per Customer = 
+CALCULATE(
+    COUNTROWS('Transaction_Tbl'),
+    ALLEXCEPT('Transaction_Tbl', 'Transaction_Tbl'[Customer ID])
+)
+```
 
 #### Analysis:
 
@@ -221,10 +284,11 @@ What is the general approach in creating this solution from start to finish
 
 - Designed slicers and KPIs to enable real-time, self-service analytics for stakeholders.
 
+ **link to power BI service !!!**
+Using the link below will enable you to gain full access to the interactive reports and semantic model behind the success of this project.  
+
 [![View Report](https://img.shields.io/badge/View%20Power%20BI%20Report-Click%20Here-blue)](https://app.powerbi.com/reportEmbed?reportId=3b68d49b-8c18-48c1-9783-0740d28fb8b9&autoAuth=true&ctid=2a305761-f97d-47e4-8f0f-a6c20c3feb73)
 
-
-    ### Click on the above link to fully interact with the Power Bi Report
 
 # Detailed Insights and Recommendation 
 
