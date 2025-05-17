@@ -206,6 +206,14 @@ Total Sales =
 SUM(Transaction_Tbl[Net Sales])
 
 ```
+```DAX
+Actual/Target Rev Diff = ([Total Revenue] - [Actual Revenue])
+
+```
+```DAX
+Actual/Target Rev Diff % =
+    ([Total Revenue] - [Actual Revenue])/[Total Revenue]
+```
 
 ```DAX
 Top 10 Sales - Female = 
@@ -284,7 +292,8 @@ CALCULATE(
 
 - Designed slicers and KPIs to enable real-time, self-service analytics for stakeholders.
 
- **link to power BI service !!!**
+ **link to power BI service !!!**  
+
 Using the link below will enable you to gain full access to the interactive reports and semantic model behind the success of this project.  
 
 [![View Report](https://img.shields.io/badge/View%20Power%20BI%20Report-Click%20Here-blue)](https://app.powerbi.com/reportEmbed?reportId=3b68d49b-8c18-48c1-9783-0740d28fb8b9&autoAuth=true&ctid=2a305761-f97d-47e4-8f0f-a6c20c3feb73)
